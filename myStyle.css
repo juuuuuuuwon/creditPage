@@ -132,10 +132,6 @@ body{
 
 .bg-white{background-color: white;}
 
-.imgSize{
-    width:6rem;
-    height:100%;
-}
 
 a{
     color: black;
@@ -143,12 +139,12 @@ a{
 }
 
 .menu{
+
     list-style: none;
 
     font-family: 'Escoredream';
     font-weight: 200;
     font-size: 1.2rem;
-
 }
 
 .text-title{
@@ -213,6 +209,15 @@ footer p{padding: 5px 6px;}
     font-family: 'BonmyeongjoSourceHanSerif';
     font-weight: 200;
     font-size: 0.8rem;
+}
+
+.imgsizeBox{
+    width: 100%;
+}
+
+.imgsize{
+    width: 100%;
+    object-fit: contain;
 }
 
 
@@ -285,10 +290,6 @@ footer p{padding: 5px 6px;}
 
     .bg-white{background-color: white;}
 
-    .imgSize{
-        width:4.5rem;
-        height:100%;
-    }
 
     a{
         color: black;
@@ -301,7 +302,7 @@ footer p{padding: 5px 6px;}
 
         font-family: 'Escoredream';
         font-weight: 200;
-        font-size: 0.95rem;
+        font-size: 0.76rem;
 
     }
 
@@ -372,6 +373,31 @@ footer p{padding: 5px 6px;}
         font-weight: 200;
         font-size: 0.6rem;
     }
+
+
+    .logo-pc .col1{ width: 18%; }
+    .logo-pc .col2{width: 28%;}
+
+    .mov-down9{
+   
+    position: absolute;
+    top:10px;
+    }
+
+    .imgsizeBox{
+        width: 100%;
+    }
+
+    .imgsize{
+        width: 110%;
+        object-fit: contain;
+    }
+
+    .imglogo{
+        width: 14%;
+        object-fit: contain;
+    }
+
 
 
 
